@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://auth-backend-93eo.onrender.com",
+        target: "https://authentication-2-qgze.onrender.com",
         changeOrigin: true,
         secure: false,
       },
